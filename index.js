@@ -21,8 +21,8 @@ function currentLine(katzDeliLine) {
       + "1. " + katzDeliLine.slice(0,1) + ", "
       + "2. " + katzDeliLine.slice(1,2) + ", "
       + "3. " + katzDeliLine.slice(2,3)
-    }
-    } else {
+   }
+  } else {
         return "The line is currently empty."
-  }
+ }
 }
