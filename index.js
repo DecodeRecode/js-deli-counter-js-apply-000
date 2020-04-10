@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
       + "2. " + katzDeliLine.slice(1,2) + ", "
       + "3. " + katzDeliLine.slice(2,3)
    }
-  } else if {
+  } else if (katzDeliLine === 0) {
         return "The line is currently empty."
   }
 }
