@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
       + "3. " + katzDeliLine.slice(2,3);
     }
     } else {
-        "The line is currently empty.";
+        return "The line is currently empty.";
   }
 }
