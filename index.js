@@ -8,7 +8,7 @@ return "Welcome, " + newCustName + "." + " You are number " + katzDeliLine.lengt
 
 function nowServing(katzDeliLine) {
  if (katzDeliLine[0]) {
-  return "Currently serving " + katzDeliLine.shift() + ".";
+  return "Currently serving " + katzDeliLine.shift() + "."
  } else {
     return "There is nobody waiting to be served!"
  }
@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
       return "The line is currently: " 
       + "1. " + katzDeliLine.slice(0,1) + ", "
       + "2. " + katzDeliLine.slice(1,2) + ", "
-      + "3. " + katzDeliLine.slice(2,3);
+      + "3. " + katzDeliLine.slice(2,3)
     }
     } else {
         return "The line is currently empty."
